@@ -14,6 +14,7 @@ description: > # this means to ignore newlines until "baseurl:"
     不朝天子，岂羡王侯。生死无虑，更复何忧。
 baseurl: "/stoptalking" # the subpath of your site, e.g. /blog
 url: "/stoptalking/" # the base hostname & protocol for your site
+assetsurl:  "/stoptalking/assets/"
 twitter_username: seannell
 github_username:  seannell
 
