@@ -46,20 +46,20 @@ A big code base needs to be organized. Module systems offer the option to split 
     - wreq - client-side
 
   - ES6  
-  <% highlight javascript %>  
+  {% highlight javascript %}  
   import "jquery";  
   export function doStuff() {}  
   module "localModule" {}  
-  <% endhighlight %>  
+  {% endhighlight %}  
 
   目前没有实现方案
 
   - 其它
 
-  ## 模块如何加载
+## 模块如何加载
 1. 一次性全部加载  
 2. 每次模块单独加载  
 3. 分块，每块中包含一个或者多个模块。`Webpack`就是干这个的  
 
-  ## `webpack`要做什么
+## `webpack`要做什么
   webpack把任何资源（包括字体、模板、图片等，不仅仅是javascript）封装成module，解析并形成最终加载的文档。
