@@ -60,5 +60,5 @@ A big code base needs to be organized. Module systems offer the option to split 
 2. 每次模块单独加载  
 3. 分块，每块中包含一个或者多个模块。`Webpack`就是干这个的  
 
-## `webpack`要做什么
+## webpack要做什么
   webpack把任何资源（包括字体、模板、图片等，不仅仅是javascript）封装成module，解析并形成最终加载的文档。
