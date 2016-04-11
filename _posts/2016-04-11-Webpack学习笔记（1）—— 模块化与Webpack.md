@@ -1,6 +1,6 @@
 ---
 layout:  post
-title:  "Webpack学习笔记（1）—— 如何理解trunk"
+title:  "Webpack学习笔记（1）—— 模块化与Webpack"
 ---
 
 ## 为什么会有module
@@ -9,7 +9,6 @@ Today’s websites are evolving into web apps:
   - More and more JavaScript is in a page.  
   - You can do more stuff in modern browsers.  
   - Fewer full page reloads → even more code in a page.  
-
 > As a result there is a lot of code on the client side!
 A big code base needs to be organized. Module systems offer the option to split your code base into modules.  
 >  ***—— [WEBPACK](http://webpack.github.io/docs/motivation.html)***  
@@ -28,8 +27,8 @@ A big code base needs to be organized. Module systems offer the option to split 
   {% endhighlight %}   
 
   可以异步加载，实现方案有：  
-    - requireJS
-    - curl
+    - requireJS  
+    - curl  
 
   - commonJS  
 
@@ -40,10 +39,10 @@ A big code base needs to be organized. Module systems offer the option to split 
   module.exports = someValue;  
   {% endhighlight %}  
   不能异步加载，实现方案有：  
-    - node.js - server-side
-    - browserify
-    - modules-webmake - compile to one bundle
-    - wreq - client-side
+    - node.js - server-side  
+    - browserify  
+    - modules-webmake - compile to one bundle  
+    - wreq - client-side  
 
   - ES6  
   {% highlight javascript %}  
