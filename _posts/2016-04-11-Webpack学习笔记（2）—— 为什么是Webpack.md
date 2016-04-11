@@ -1,6 +1,6 @@
 ---
 layout:  post
-title:  "Webpack学习笔记（1）—— 为什么是Webpack"
+title:  "Webpack学习笔记（2）—— 为什么是Webpack"
 ---
 
 ## 为什么是webpack
