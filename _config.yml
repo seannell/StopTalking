@@ -2,22 +2,21 @@
 #
 
 # Site settings
-title: Spectral
-description: |
-  Another fine responsive  
-  site template freebie  
-  crafted by [HTML5 UP](http://html5up.net)
+title: 默然
+email: seannell@outlook.com
+description: > # this means to ignore newlines until "baseurl:"
+    世事悠悠，不如山丘。青松蔽日，碧涧长秋。
+    山云当幕，夜月为钩。卧藤萝下，块石枕头。
+    不朝天子，岂羡王侯。生死无虑，更复何忧。
 owner: Your Name # or company name
 first_published: 2016 # if migrating another site, the year of your first publish
-email: your-email@domain.com
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://yourdomain.com" # the base hostname & protocol for your site
+baseurl: "/stoptalking" # the subpath of your site, e.g. /blog
+url: "/stoptalking/" # the base hostname & protocol for your site
 social:
-  twitter: https://twitter.com/<username>
-  github: https://github.com/<username>
-  linkedin-square: https://linkedin.com/in/<username>
-  facebook-official: https://facebook.com/<username>
-  google-plus-square: https://plus.google.com/u/0/+<username>
+  github: https://github.com/seannell
+  #linkedin-square: https://linkedin.com/in/<username>
+  #facebook-official: https://facebook.com/<username>
+  #google-plus-square: https://plus.google.com/u/0/+<username>
   #email: /contact/
   #flickr:
   #instagram:
@@ -35,7 +34,7 @@ social:
   #angellist:
   #tumblr-square:
   #stackexchange:
-  #weibo:
+  weibo:seannell
   #trello:
   #foursquare:
   #linux:
@@ -43,7 +42,7 @@ social:
   #vk:
   #slack:
   #vine:
-  #weixin:
+  weixin:happyhao0410
   #yelp:
   #skyatlas:
   #leanpub:
@@ -55,5 +54,7 @@ social:
 
 # Build settings
 markdown: kramdown
+kramdown:
+  input: GFM
 #sass:
 #  style: compressed
