@@ -19,7 +19,7 @@ A big code base needs to be organized. Module systems offer the option to split 
 
 目前模块化的解决方案或者标准有：
   - AMD  
-  {% highlight javascript %}
+  {% highlight javascript linenos %}
   require(["module", "../file"], function(module, file) { /* ... */ });   
   define("mymodule", ["dep1", "dep2"], function(d1, d2) {  
   return someExportedValue;  
@@ -32,7 +32,7 @@ A big code base needs to be organized. Module systems offer the option to split 
 
   - commonJS  
 
-  {% highlight javascript %}
+  {% highlight javascript linenos %}
   require("module");  
   require("../file.js");  
   exports.doStuff = function() {};  
@@ -45,7 +45,7 @@ A big code base needs to be organized. Module systems offer the option to split 
     - wreq - client-side  
 
   - ES6  
-  {% highlight javascript %}  
+  {% highlight javascript linenos %}  
   import "jquery";  
   export function doStuff() {}  
   module "localModule" {}  
