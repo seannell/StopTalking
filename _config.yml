@@ -1,5 +1,9 @@
 # Welcome to Jekyll!
 #
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
 title: 默然
@@ -8,53 +12,13 @@ description: > # this means to ignore newlines until "baseurl:"
     世事悠悠，不如山丘。青松蔽日，碧涧长秋。
     山云当幕，夜月为钩。卧藤萝下，块石枕头。
     不朝天子，岂羡王侯。生死无虑，更复何忧。
-owner: Your Name # or company name
-first_published: 2016 # if migrating another site, the year of your first publish
 baseurl: "/stoptalking" # the subpath of your site, e.g. /blog
 url: "/stoptalking/" # the base hostname & protocol for your site
-social:
-  github: https://github.com/seannell
-  #linkedin-square: https://linkedin.com/in/<username>
-  #facebook-official: https://facebook.com/<username>
-  #google-plus-square: https://plus.google.com/u/0/+<username>
-  #email: /contact/
-  #flickr:
-  #instagram:
-  #youtube-square:
-  #spotify:
-  #stack-overflow:
-  #vimeo:
-  #reddit:
-  #stubleupon:
-  #delicious:
-  #pied-piper:
-  #digg:
-  #soundcloud:
-  #deviantart:
-  #angellist:
-  #tumblr-square:
-  #stackexchange:
-  weibo:seannell
-  #trello:
-  #foursquare:
-  #linux:
-  #bitbucket-square:
-  #vk:
-  #slack:
-  #vine:
-  weixin:happyhao0410
-  #yelp:
-  #skyatlas:
-  #leanpub:
-  #connectdevelop:
-  #ils:
-  #forumbee:
-  #tripadvisor:
-  #amazon:
+assetsurl:  "/stoptalking/assets/"
+twitter_username: seannell
+github_username:  seannell
 
 # Build settings
 markdown: kramdown
 kramdown:
   input: GFM
-#sass:
-#  style: compressed
