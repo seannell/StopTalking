@@ -1,6 +1,8 @@
 ---
 layout:  post
 title:  "Webpack学习笔记（1）—— 模块化与Webpack"
+category: "教程"
+tags: ["javascript","前端","webpack"]
 ---
 
 ## 为什么会有module
