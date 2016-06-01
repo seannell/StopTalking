@@ -1,9 +1,0 @@
----
-layout: post
-title:  "为什么写的文章没有发布"
-tags:
-  - 疑问
-header-img: "assets/20160518/sunset_1.jpg"
----
-
-为什么写的文章不发布呢？
